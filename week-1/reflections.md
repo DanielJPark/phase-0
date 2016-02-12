@@ -42,4 +42,48 @@ rmdir – removes a folder
 rm – removes a file
 
 help - ??
+
 1.4 Fork and Cloning
+
+If you were going to write instructions for a new person on how to create a new repo, fork a repo, and clone a repo, what would they be? Why would you fork a repository as opposed to create a new one.
+
+Instructions for creating a new repository
+
+Step 1 - Log into Github
+
+Step 2 - Click on "+" icon in upper right corner of screen.
+
+Step 3 - Select New Respository.
+
+Step 4 - Enter requested information ie Repository name, public/private, etc2
+
+ 
+
+Instructions for forking a repository
+
+Step 1 – Find repository you would like to fork/follow
+
+Step 2 – click on “Fork” button on right hand side.
+
+Step 3 – Select your account name/location where to fork the repository
+
+ 
+
+Cloning a repository
+
+Step 1 – Go to forked repository and copy the HTTPS URL
+
+Step 2 – Open Terminal and navigate to desired directory where the cloned files are to be saved.
+
+Step 3 – Type git clone and the copied url
+
+ 
+
+Creating a new repository would be exactly that, a new repository. It would not be the same files and folders as the original, thus they would be completely new files and not have the benefit of version control.
+
+ 
+
+What struggles did you have setting up git and GitHub? What did you learn in the process?
+Setting up git and GitHub was very easy and simple. I had no problems there. I struggled a bit in understanding what it ment exactly to clone a repository and setting up the files/folder on my local machine especially through the terminal. The part I struggled most with was remembering the syntax of the line commands.
+
+ 
