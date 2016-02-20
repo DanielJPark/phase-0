@@ -1,6 +1,6 @@
 ![Alt text](imgs/wireframe-index.png)
 
-![Alt text](imgs/wirefram-blog-index.png)
+![Alt text](imgs/wireframe-blog-index.png)
 
 1. What is a wireframe?
 	
@@ -29,5 +29,8 @@
 	I enjoyed creating the wireframe on photoshop. I am a very visual person so I liked being able to draw out a rough idea of what the pages were going to look like before hand. 
 
 	I found that sometimes the directions were a bit confusing and unclear. I had to read over them a few times to get what it was trying to say/explain.
+
+
+
 
 
