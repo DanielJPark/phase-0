@@ -12,7 +12,7 @@
 
 3. Did you enjoy wireframing your site?
 	
-	Yes, I have expereince in art/drawing and have done similar things to this. I also found it to be similar to the writing process where you write a "rough draft." 
+	Yes, I have expereince in art/drawing and have done similar things to this in the past. I also found it to be similar to the writing process where you write a "rough draft." 
 
 
 4. Did you revise your wireframe or stick with your first idea?
