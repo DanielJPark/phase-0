@@ -8,7 +8,7 @@
 
 2. What are the benefits of wireframing?
 	
-	It gives the web designer/developer a visual representation of what the site will look like when finished. 
+	It gives the web designer/developer a visual representation of what the site will look like when finished. It is almost like a rough draft for piece of writing.
 
 3. Did you enjoy wireframing your site?
 	
