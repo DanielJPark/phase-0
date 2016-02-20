@@ -1,6 +1,6 @@
 ![Alt text](imgs/wireframe-index.png)
 
-![Alt text](imgs/wirefram-blog-index.png)
+![Alt text](imgs/wireframe-blog-index.png)
 
 1. What is a wireframe?
 	
