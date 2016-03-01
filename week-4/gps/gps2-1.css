@@ -1,0 +1,50 @@
+* {
+  font-family: Arial, TimesNewRoman;
+}
+
+section {
+  background-color: orange;
+}
+
+article {
+  background-color: gray;
+}
+
+.column-1{
+  width: 45%;
+  float: left;
+  margin-bottom: 50px;
+  margin-left: 2%;
+}
+
+.column-2{
+  width: 45%;
+  float: right;
+  margin-bottom: 50px;
+  padding: 0 1%;
+}
+
+footer {
+  clear: both;
+}
+
+a:hover {
+  color: white;
+}
+
+header, footer {
+  background-color: #cce6ff;
+}
+
+header > p {
+  background-color: #d9d9d9;
+}
+
+details {
+  border-bottom: 1px solid black;
+  background-color: #d9d9d9;
+}
+
+code {
+  font-family: courier;
+}
