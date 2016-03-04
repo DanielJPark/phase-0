@@ -1,7 +1,7 @@
 # Factorial
 
 # I worked on this challenge [by myself, with: ].
-
+Dan Park and Elizabeth Alexander
 
 # Your Solution Below
 def factorial(number)
