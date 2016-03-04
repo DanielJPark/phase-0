@@ -1,5 +1,5 @@
 
-# I worked on this challenge [by myself, with: ].
+# I worked on this challenge [by myself, with: Jon Kaplan ].
 
 
 # Your Solution Below
