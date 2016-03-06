@@ -13,8 +13,13 @@
 # Your Solution Below
 def largest_integer(list_of_nums)
   # Your code goes here!
-  return list_of_nums.max
-
+  max = nil
+  list_of_nums.each do |x|
+  		if max.nil? || max<x
+  			max = x
+  		end
+  	end
+  	return max
 end
 
 largest_integer([-10, 0, 10])    # => 10

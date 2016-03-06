@@ -13,7 +13,13 @@
 # Your Solution Below
 def smallest_integer(list_of_nums)
   # Your code goes here!
-  return list_of_nums.min
+  min = nil
+  list_of_nums.each do |x|
+  		if min.nil? || min>x
+  			min = x
+  		end
+  	end
+  return min
 end
 
 
