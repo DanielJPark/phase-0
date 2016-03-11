@@ -71,12 +71,6 @@ def pad(array, min_size, value = nil) #non-destructive
       my_array.push(nil)
     end
   end
-
-  if my_array.length < min_size && value
-    until my_array.length == min_size 
-      my_array.push(value)
-    end
-  end 
      
   if my_array.length >= min_size or min_size == 0
     return my_array 
