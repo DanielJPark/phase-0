@@ -61,4 +61,8 @@ describe "pad" do
   it "can pad with an object" do
     expect(pad(empty_array, 2, {})).to eq([{}, {}])
   end
+<<<<<<< HEAD
 end
+=======
+end
+>>>>>>> master
