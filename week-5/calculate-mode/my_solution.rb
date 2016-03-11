@@ -34,6 +34,7 @@
 
 # 3. Refactored Solution
 
+
 def mode(arrays)
   freq = arrays.inject(Hash.new(0)) { |h,v| h[v] += 1; h } 
   highest_freq=freq.values.max
