@@ -129,7 +129,6 @@ mode([1,2,3,4,4,5,5])
 4. What methods did you use to iterate through the content? Did you find any good ones when you were refactoring? Were they difficult to implement?
 	
 	We used .keys to pull the keys we were looking for out of the hash and print to the console. 
-
 =end
 
 
