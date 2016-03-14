@@ -2,7 +2,7 @@
 =begin
 
 input: A list of names
-output: A list of those names in groups of 3, 4, or 5.
+output: A list of those names in groups of 3 or 4.
 steps:
 define a method that takes an array and divides it into groups of 3, 4, or 5.
 
