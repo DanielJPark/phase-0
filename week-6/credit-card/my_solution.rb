@@ -64,9 +64,45 @@ card = CreditCard.new(4563960122001999)
 
 p card.validate
 
-# Reflection
+# Refactored Solution 
+class CreditCard
+  def initialize(acct_number)
+    raise ArgumentError.new("wrong size card") if acct_number.to_s.length < 16
+    raise ArgumentError.new("wrong size card") if acct_number.to_s.length > 16
+    @acct_number = acct_number
+  end
+  
+  def check_card
+    initial_digits = @acct_number.to_s.split("").map{|num| num.to_i} # "4563960122001999" => [4, 5, 6, ...]
+    
+    i = 0
+    while i < initial_digits.length 
+      current_item = initial_digits[i]
+      initial_digits[i] = current_item * 2
+      i = i + 2
+    end
+    
+    initial_digits = initial_digits.map{|num| num.to_s}.join.split("").map{|num| num.to_i} # [14, 2...]
+    
+    sum = initial_digits.inject{|sum, num| sum + num}
+    if sum % 10 == 0 
+      puts "This card is valid"
+      true
+    else
+      puts "this card is invalid"
+      false
+    end
+  
+  end
+  
+end
+
+
+#Reflection 
 
 =begin
+
+
 
 What was the most difficult part of this challenge for you and your pair?
 
@@ -86,3 +122,5 @@ What concepts or learning were you able to solidify in this challenge?
  
 
 =end
+
+
