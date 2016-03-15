@@ -74,4 +74,4 @@ updated_startup = startup_names.map do |names|
 end
 
         
-p updated_startup      
+p updated_startup
