@@ -111,7 +111,7 @@ What was the most difficult part of this challenge for you and your pair?
 
 What new methods did you find to help you when you refactored?
 
-	map, split, and join
+	map, split, join, inject
 
 What concepts or learning were you able to solidify in this challenge?
 
@@ -120,7 +120,4 @@ What concepts or learning were you able to solidify in this challenge?
 	My pair helped me with some simple drills to really get good practice in writing and methods items in a class.
 	
  
-
 =end
-
-
