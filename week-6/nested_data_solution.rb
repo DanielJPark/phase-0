@@ -75,3 +75,29 @@ end
 
         
 p updated_startup
+
+
+
+=begin 
+Reflection
+
+What are some general rules you can apply to nested arrays?
+  
+  Arrays can hold other arrays and hashes. The items inside can all be called upon if iterated over correctly.
+  
+What are some ways you can iterate over nested arrays?
+  
+  We used map and each to iteratte over the nested arrays.
+
+Did you find any good new methods to implement or did you re-use one you 
+were already familiar with? What was it and why did you decide that was a good option?
+  
+  We focused on using map and each because we wanted to have 
+  tried doing only one new thing at a time instead of multiple new
+  things. 
+
+
+
+
+
+=end
