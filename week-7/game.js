@@ -37,7 +37,3 @@ if (yourPick) > var dealerPick; console.log "Congrats, You won!"
 else console.log "Sorry, You lost"
 //};
 
-
-
-
-
