@@ -7,7 +7,7 @@ This game puts the player against the dealer. There is a deck of single suited c
 3. set player function. Iterate over array. Randomly choose 1. 
 */
 
-console.log("Welcome to High Number! The rules of the game is simple. You and your opponent, the dealer, each have a bag with 10 numbered balls in it. First, you will pull a numbered ball out of your bag and then the dealer will pick a ball out of his bag. If your numbered ball is higher than the dealer's you win! If your number is equal of lesser than the dealer's you lose! Good Luck!")
+console.log("Welcome to High Number! The rules of the game is simple. You and your opponent, the dealer, each have a bag with 10 numbered balls in it. First, you will pull a numbered ball out of your bag and then the dealer will pick a ball out of his bag. If your numbered ball is higher than the dealer's you win! If your number is lesser than the dealer's you lose! Good Luck!")
 
 
 
@@ -35,10 +35,15 @@ console.log(dealerPick)
 //var yourBall =
 //var dealerBall =
 
-//function result(){
-//if (yourPick) > var dealerPick; console.log "Congrats, You won!"
-//else console.log "Sorry, You lost"
-//};
+function result(){
+if (yourPick > dealerPick) {console.log("Congrats, You won!");
+	}
+else if (yourPick < dealerPick) {console.log("Sorry, You lost.. Try again!");
+	}
+else {console.log("You tied with the dealer. Try again!");
+	}
+}
 
+result()
 
 
